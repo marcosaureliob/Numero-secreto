@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap');
+:root{
+    --font-family:'Source Code Pro', monospace;
+    --primary-color: #FDFDBD;
+    --bg-color: #B1AFFF;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 4em;
+}
+h3{
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.mensagem{
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+.box{
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 8rem;
+    padding: 1.2rem;
+    margin: 2.5rem;
+}
+
+.btn-jogar{
+    padding: 1rem 2rem;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 1rem;
+    margin-top: 3rem;
+    font-family: var(--font-family);
+}
